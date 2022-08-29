@@ -16,7 +16,7 @@
 7. Start container if not previously run: `bash start_container.bash`
 
 ### Do you need more shells?
-8. Run: `docker exec pepper_ros_cnt /bin/bash`
+8. Run: `docker exec -it pepper_ros_cnt /bin/bash`
 
 ## Naoqi building
 1. Run/start the container
