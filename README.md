@@ -10,16 +10,16 @@
 
 ### Container running
 6. Run the container: `bash run_container.bash` <br>
-**The container only needs to be runned if it doesn't exist. If it already exists it just needs to be started. So skip** ***the step 6***
+**The container only needs to be runned if it doesn't exist. If it already exists it just needs to be started (next step)**
 
 ### Container starting
-7. Start the container: `bash start_container.bash`
+7. Start container if not previously run: `bash start_container.bash`
 
 ### Do you need more shells?
 8. Run: `docker exec pepper_ros_cnt /bin/bash`
 
 ## Naoqi building
-1. Run the container
+1. Run/start the container
 2. Go in `naoqi_driver_ws`
 3. Build the workspace: `catkin build`
 4. Run: `echo "source /root/naoqi_driver_ws/devel/setup.bash" >> $HOME/.bashrc`
