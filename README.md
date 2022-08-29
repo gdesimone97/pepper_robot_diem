@@ -22,4 +22,4 @@
 1. Run/start the container
 2. Go in `naoqi_driver_ws`
 3. Build the workspace: `catkin build`
-4. Run: `echo "source /root/naoqi_driver_ws/devel/setup.bash" >> $HOME/.bashrc`
+4. Run: `echo "source /root/naoqi_driver_ws/devel/setup.bash" >> $HOME/.bashrc && source /root/naoqi_driver_ws/devel/setup.bash`
