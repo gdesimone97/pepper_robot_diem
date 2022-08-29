@@ -10,7 +10,7 @@
 
 ### Container running
 6. Run the container: `bash run_container.bash` <br>
-**The container only needs to be runned if it doesn't exist. If it already exists it just needs to be started**
+**The container only needs to be runned if it doesn't exist. If it already exists it just needs to be started. So skip** ***the step 6***
 
 ### Container starting
 7. Start the container: `bash start_container.bash`
