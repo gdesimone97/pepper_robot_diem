@@ -8,12 +8,12 @@
 ### Image building
 5. Build the image: `docker build -t pepper_ros ..`
 
-### Container starting
-6. Start the container: `bash start_container.bash` <br>
-**The container only needs to be started if it doesn't exist. If it already exists it just needs to be run**
-
 ### Container running
-7. Run the container: `bash run_container.bash`
+6. Run the container: `bash run_container.bash` <br>
+**The container only needs to be runned if it doesn't exist. If it already exists it just needs to be started**
+
+### Container starting
+7. Start the container: `bash start_container.bash`
 
 ### Do you need more shells?
 8. Run: `docker exec pepper_ros_cnt /bin/bash`
