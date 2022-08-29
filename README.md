@@ -18,7 +18,7 @@
 ### Do you need more shells?
 8. Run: `docker exec pepper_ros_cnt /bin/bash`
 
-## Naoqi buiding
+## Naoqi building
 1. Run the container
 2. Go in `naoqi_driver_ws`
 3. Build the workspace: `catkin build`
