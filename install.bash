@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install -y python3-rosdep python3-pip git
+sudo apt install -y python3-rosdep python3-pip python3-catkin-tools git
 WS=$HOME/catkin_ws/src
 mkdir -p $WS
 cd $WS
