@@ -13,3 +13,4 @@ sudo rosdep init
 rosdep update
 cd ..
 rosdep install --from-paths src --ignore-src --rosdistro noetic -r -y
+echo "Workspace configured in $WS"
