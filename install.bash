@@ -2,6 +2,8 @@
 
 sudo apt update
 sudo apt install -y python3-rosdep python3-pip python3-catkin-tools git
+python3 -m pip install pip==22.0.0
+python3 -m pip install pyOpenssl -U
 WS=$HOME/catkin_ws/src
 mkdir -p $WS
 cd $WS
